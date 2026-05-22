@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Account Deletion - Dr. Scheduled (Doctor App)</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    color: #333;
+    line-height: 1.6;
+  }
+  h1 { color: #667eea; border-bottom: 2px solid #667eea; padding-bottom: 10px; }
+  h2 { color: #667eea; margin-top: 30px; }
+  ol li { margin-bottom: 10px; }
+  .highlight { background-color: #fff3cd; padding: 15px; border-left: 4px solid #ffc107; margin: 20px 0; border-radius: 4px; }
+  .step { background-color: #f5f7fa; padding: 12px 18px; border-radius: 8px; margin: 12px 0; }
+  a { color: #667eea; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+  th, td { padding: 8px 12px; border: 1px solid #ddd; text-align: left; }
+  th { background-color: #f5f5f5; }
+  .footer { font-size: 0.9em; color: #888; font-style: italic; margin-top: 40px; }
+</style>
+</head>
+<body>
+
+<h1>Request Account & Data Deletion — Dr. Scheduled (Doctor App)</h1>
+
+<p>If you are a registered doctor using the Dr. Scheduled - Doctor app and wish to delete your account or specific data, please follow the instructions below.</p>
+
+<div class="highlight">
+<strong>Important:</strong> The Dr. Scheduled - Doctor app does not allow doctors to self-register or delete their own accounts directly within the app. Doctor accounts are created and managed by the App administrator. To delete your account or specific data, you must contact the administrator via email.
+</div>
+
+<h2>How to Request Deletion</h2>
+
+<div class="step">
+<strong>Step 1:</strong> Compose an email to:
+<p style="font-size: 18px; font-weight: bold; color: #667eea; margin: 10px 0;">
+<a href="mailto:doctappointment@gmail.com">doctappointment@gmail.com</a>
+</p>
+</div>
+
+<div class="step">
+<strong>Step 2:</strong> Use the subject line:
+<p style="font-family: monospace; background: #fff; padding: 8px; border-radius: 4px;">
+Doctor Account Deletion Request — [Your Name]
+</p>
+</div>
+
+<div class="step">
+<strong>Step 3:</strong> In the email body, please include:
+<ul>
+<li>Your full name (as registered in the app)</li>
+<li>Your registered email or registration number</li>
+<li>Your hospital/clinic name (for verification)</li>
+<li>Whether you want full account deletion or specific data deletion</li>
+<li>The reason (optional — for our service improvement)</li>
+</ul>
+</div>
+
+<div class="step">
+<strong>Step 4:</strong> Send the email. We will respond within <strong>30 days</strong> and confirm the deletion has been processed.
+</div>
+
+<h2>What Data Will Be Deleted</h2>
+
+<p>Upon your request, the following data associated with your account will be deleted:</p>
+
+<table>
+<tr>
+<th>Data Type</th>
+<th>Deletion Action</th>
+</tr>
+<tr>
+<td>Professional profile (name, designation, qualifications, etc.)</td>
+<td>Deleted</td>
+</tr>
+<tr>
+<td>Profile photo</td>
+<td>Deleted from Cloudflare R2 storage</td>
+</tr>
+<tr>
+<td>Schedules and availability</td>
+<td>Deleted</td>
+</tr>
+<tr>
+<td>Login credentials</td>
+<td>Deleted</td>
+</tr>
+<tr>
+<td>Notifications and FCM tokens</td>
+<td>Deleted</td>
+</tr>
+</table>
+
+<h2>What Data May Be Retained</h2>
+
+<p>For legal, regulatory, and operational reasons, the following may be retained:</p>
+<ul>
+<li><strong>Patient consultation records:</strong> Clinical notes, diagnoses, and prescription photos you created about patients may be retained as part of the medical record system. These records are essential for continuity of patient care and may be subject to medical record retention laws in your jurisdiction.</li>
+<li><strong>Audit logs:</strong> Records of administrative actions (e.g., when your account was created/modified) may be retained for compliance purposes.</li>
+<li><strong>Aggregated statistics:</strong> Anonymized, non-identifiable usage statistics may be retained for system analytics.</li>
+</ul>
+
+<h2>Retention Period</h2>
+
+<p>Once deletion is confirmed:</p>
+<ul>
+<li>Active session data: deleted immediately</li>
+<li>Cloud storage data: deleted within 7 days</li>
+<li>Database records: deleted within 30 days</li>
+<li>Backup retention: deleted within 90 days (backups roll out over time)</li>
+</ul>
+
+<h2>Alternative: Deactivation Instead of Deletion</h2>
+
+<p>If you do not want full deletion but wish to stop using the app, you may simply log out and not log back in. Your account will remain inactive but retained. To request reactivation later, contact the same email above.</p>
+
+<h2>Need Help?</h2>
+
+<p>For any questions about data deletion, account closure, or related concerns, contact:</p>
+
+<p style="font-size: 16px;">
+<strong>Email:</strong> <a href="mailto:doctappointment@gmail.com">doctappointment@gmail.com</a><br>
+<strong>Developer:</strong> Dr. Qaisur Rabbi<br>
+<strong>Organization:</strong> Doctappoint, Dhaka, Bangladesh
+</p>
+
+<p>You can also review our full <a href="privacy-doctor.html">Privacy Policy</a> for more details on data handling.</p>
+
+<p class="footer">Last updated: May 22, 2026</p>
+
+</body>
+</html>
